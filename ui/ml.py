@@ -4,7 +4,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
-from sklearn.preprocessing import StandardScaler
 
 def load_model():
     # 저장된 모델 불러오기
